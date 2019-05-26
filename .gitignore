@@ -7,6 +7,10 @@
 /.idea/workspace.xml
 /.idea/gradle.xml
 .idea/codeStyles/
+.idea/markdown-navigator/
+.idea/markdown-navigator.xml
+.idea/markdown-exported-files.xml
+.idea/encodings.xml
 .DS_Store
 /build
 /captures
