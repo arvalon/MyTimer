@@ -10,8 +10,10 @@
 .idea/markdown-navigator/
 .idea/markdown-navigator.xml
 .idea/markdown-exported-files.xml
+.idea/markdown-navigator-enh.xml
 .idea/encodings.xml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+/.idea/jarRepositories.xml

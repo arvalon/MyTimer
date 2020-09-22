@@ -8,7 +8,7 @@ import android.util.Log;
  */
 public class Logs {
 
-    public static final String TAG = "timer";
+    public static final String TAG = "timer.logs";
     private static final String ERROR = "ERROR: ";
     private static final String SEPARATOR = ": ";
     private static final String THREAD = "Thread: ";

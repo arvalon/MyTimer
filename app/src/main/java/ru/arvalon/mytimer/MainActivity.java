@@ -32,10 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mSingleShotCheckBox = findViewById(R.id.checkBoxSingleShot);
-        mStartButton = findViewById(R.id.buttonStart);
-        mCancelButton = findViewById(R.id.buttonCancel);
-        mCounterTextView = findViewById(R.id.textViewCounter);
+        initViews();
 
         setValues();
 
@@ -68,7 +65,16 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void initViews() {
+
+        mSingleShotCheckBox = findViewById(R.id.checkBoxSingleShot);
+        mStartButton = findViewById(R.id.buttonStart);
+        mCancelButton = findViewById(R.id.buttonCancel);
+        mCounterTextView = findViewById(R.id.textViewCounter);
+    }
+
     private void setValues() {
+
         Timer timer = new Timer();
 
         timer.scheduleAtFixedRate(new TimerTask() {

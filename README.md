@@ -1,0 +1,1 @@
+Использование [Timer](https://developer.android.com/reference/java/util/Timer) и [TimerTask](https://developer.android.com/reference/java/util/TimerTask)
